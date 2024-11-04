@@ -1,0 +1,41 @@
+# Python specific #
+###################
+*.pyc                 # Compiled Python files
+*.pyo
+*.pyd
+__pycache__/          # Python cache directories
+*.sqlite3             # SQLite database files
+
+# Virtual Environment #
+#######################
+venv/                 # Virtual environment directory (name may vary: e.g., `env/`)
+env/
+venv.bak/
+
+# Django specific #
+###################
+*.log                 # Log files
+*.pot                 # Translation files
+*.mo
+db.sqlite3            # Default SQLite database (if used for local development)
+instance/             # Flask specific, often used by Django devs
+
+# Environment variables #
+#########################
+.env                  # Environment variables file with sensitive data
+
+# Static and media files #
+##########################
+staticfiles/          # Generated static files for production
+media/                # User-uploaded files (if using default media root)
+node_modules/         # If using npm or Node.js for frontend development
+
+# IDE-specific #
+#################
+.vscode/              # VSCode configuration
+.idea/                # PyCharm/IntelliJ configuration
+
+# OS-specific #
+###############
+.DS_Store             # macOS files
+Thumbs.db             # Windows file
